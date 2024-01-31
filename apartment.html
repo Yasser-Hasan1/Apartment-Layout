@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Yasser Hasan; 000888803 -->
+		<title>Sandy and Leslie's apartment</title>
+		
+		<link href="apartment_layout.css" rel="stylesheet" type="text/css"/>
+		<link href="mobile.css" rel="stylesheet" type="text/css"  media="print" />
+		<style>
+		
+		body {
+				display: grid;
+				grid-column:auto;
+				grid-gap: 30px;
+				margin: 0 10%;
+					}
+		
+		
+		form {
+		
+			display: inline;
+			}
+		
+		.fleximages {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		
+		}
+					
+footer {
+	
+	text-align: center;
+	
+}
+		</style>
+		</head>
+		<body>
+		<header>
+		<h1> Sandy and Leslie's Apartment</h1>
+		<p> Click a room for a detailed view</p>
+		
+		<img src="images/apartmentfloorplan.jpg" alt="floorplan" />
+		
+		<nav>
+					<ul>
+						 <li><a href="#">Apartment</a></li>
+						 <li> | </li>
+						 <li><a href="bedroom.html">Bedroom 1</a></li>
+						 <li> | </li>
+						 <li><a href="bedroom.html">Bedroom 2</a></li>
+						 <li> | </li>
+						 <li><a href="diningroom.html">Dining Room</a></li>'
+						 <li> | </li>
+						 <li><a href="kitchen.html">Kitchen</a></li>
+						 <li> | </li>
+						 <li><a href="livingroom.html">Living room</a></li>
+						 
+		
+					</ul>
+			 </nav>
+		<h2> Welcome Message </h2>
+		<div>
+		<audio controls>
+		
+		<source src="apartment.mp3" type="audio/mp3">
+		
+
+		</audio>
+		<p>Hello. Welcome to our apartment. You’ll really enjoy living here. The rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you! </p>
+		</div>
+		<div>
+		<h2> Apartment Services: </h2>
+		<table>
+		<thead>
+					<tr>
+						<th>Service</th>
+						<th>Day/Hours</th>
+						<th></th>
+						
+						
+								
+					</tr>
+				</thead>
+		<tbody>
+				<tr>
+						<th> Gym </th>
+						<td rowspan="2" colspan="1"> Monday-Friday 6am-10pm
+						 Saturday 8am-8pm 
+						 Sunday 8am-5pm </td>
+					</tr>
+				<tr>
+					<th> Pool </th>
+					
+				</tr>
+					
+				<tr>
+				<th> Laundry </th>
+				<td> 24/7 </td>
+				</tr>
+				
+				
+			
+				</tbody>		
+		</table>
+		</div>
+		<div>
+		<h2> Location </h2>
+		<img src="images/location.png" alt="location" />
+		</div>
+		
+		<h2> Survey </h2>
+		<form method="post" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+		<legend> How did you find out about this apartment? Check any that apply:</legend>
+		<input type="checkbox" id="opt1" name="Web Search" value="Web search">
+		<label for="websearch"> Web Search</label><br>
+		<input type="checkbox" id="opt2" name="opt2" value="Friend">
+		<label for="friend"> Friend</label><br>
+		<input type="checkbox" id="opt3" name="opt3" value="Newspaper">
+		<label for="newspaper"> Newspaper</label><br>
+		<section><input type="submit" class="btn" value="Submit">
+			<input type="reset" class="btn" value="Reset Form"></section>			  
+			</form>
+			
+		<h2> Gallery </h2>
+		<div class="fleximages">
+		<img src="images/balcony.jpg" alt="image1" width="200"/>
+		<img src="images/bathroom_sm.jpg" alt="image1" width="200"/>
+		<img src="images/bedroom_lg.jpg" alt="image1" width="200"/>
+		<img src="images/diningroom_lg.jpg" alt="image1" width="200"/>
+		<img src="images/kitchen_lg.jpg" alt="image1" width="200"/>
+		<img src="images/livingroom_lg.jpg" alt="image1" width="200"/>
+		</div>
+		<footer>
+		<p> For more information contact: <a href="mailto:apartment@example.com">SandyandLeslie@example.com</a> or <a href="tel:+9055551234">(905) 555-1234</a>
+		<p> &copy; Sandy and Leslie 2022 <p>
+		</footer>
+		</body>
+</html>
